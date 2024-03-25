@@ -37,7 +37,7 @@
 <a align="center" href="https://github.com/Andrii-Hr">![GitHub](https://img.shields.io/badge/-Andrii-05122A?style=flat&logo=github)</a>
 
 </span>
-<span align="center">
+<span align="left" font-size='12px'>
 
 
 ## Опис
@@ -92,3 +92,4 @@
 ✅ Mariana Skorynovych - Денна норма користувача та функціонал мови
 
 ✅ Andrii Hryb - Вихід користувача ◼ Завантажувач
+</span>

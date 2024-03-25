@@ -35,7 +35,7 @@
 <a align="center" href="https://github.com/Andrii-Hr">![GitHub](https://img.shields.io/badge/-Andrii-05122A?style=flat&logo=github)</a>
 
 </span>
-<span align="left">
+<span align="left" font-size='12px'>
 
 
 ## Description
@@ -92,3 +92,5 @@ within a specified 14-day time frame.
 ✅ Mariana Skorynovych - User`s daily norma and language functionality
 
 ✅ Andrii Hryb - User logout ◼ Loader
+
+</span>
