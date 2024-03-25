@@ -1,5 +1,5 @@
 <h1 align="center"> 👨‍💻 TRACK OF WATER  👩‍💻 </h1>
-![logo](https://github.com/UlianaNad/chat-app/blob/main/Logo.png)
+
 <span align="center">
 
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
