@@ -1,5 +1,5 @@
 <h1 align="center"> 👨‍💻 TRACK OF WATER 👩‍💻 </h1>
-![alt logo](./Logo.png)
+
 
 <span align="center">
 
@@ -21,7 +21,7 @@
 
 </span>
 
-<h3 align="center"> ℹ️ Capybara-component team <h3>
+## <h3 align="center"> ℹ️ Capybara-component team <h3>
 <span align="center">
 
 <a align="center" href="https://github.com/julika-gulchitai">![GitHub](https://img.shields.io/badge/-Julia-05122A?style=flat&logo=github)</a>
