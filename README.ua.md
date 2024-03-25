@@ -1,5 +1,5 @@
 <h1 align="center"> 👨‍💻 TRACK OF WATER 👩‍💻 </h1>
-![alt text](Logo.png)
+![alt logo](./Logo.png)
 
 <span align="center">
 

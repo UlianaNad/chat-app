@@ -1,5 +1,5 @@
 <h1 align="center"> 👨‍💻 TRACK OF WATER  👩‍💻 </h1>
-
+<span align="center">![alt logo](./Logo.png)</span>
 <span align="center">
 
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
@@ -46,23 +46,23 @@ Water Tracker is a web application that allows users to monitor their daily wate
 
 ## Platform Compatibility 
 
-<p>The application is designed to be responsive and adaptable to desktop, tablet, and mobile devices. It has three breakpoints: 1440 pixels, 768 pixels, and 320 pixels respectively.</p>
+The application is designed to be responsive and adaptable to desktop, tablet, and mobile devices. It has three breakpoints: 1440 pixels, 768 pixels, and 320 pixels respectively.
 
 ## User Authentication 
 
-<p>Water Tracker includes user registration, login, and password recovery functionalities to ensure user privacy and security.</p>
+Water Tracker includes user registration, login, and password recovery functionalities to ensure user privacy and security.
 
 ## Customization 
 
-<p>Users can input their personal information in the Settings section. This includes adding a photo, specifying gender, name, and updating password or email.</p>
+Users can input their personal information in the Settings section. This includes adding a photo, specifying gender, name, and updating password or email.
 
 ## Water Intake Tracking 
 
-<p>Users can log their water intake manually or set a daily water intake goal. The application suggests a recommended water intake based on user weight, but users can also set their own target.</p>
+Users can log their water intake manually or set a daily water intake goal. The application suggests a recommended water intake based on user weight, but users can also set their own target.
 
 ## Statistics and Progress
 
-<p>Users can view their water consumption statistics for the month in a calendar view. Additionally, a progress panel shows the user's water intake progress for the current day.</p>
+Users can view their water consumption statistics for the month in a calendar view. Additionally, a progress panel shows the user's water intake progress for the current day.
 
 
 ## Aim of the project
