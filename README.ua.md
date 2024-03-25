@@ -1,9 +1,6 @@
 <h1 align="center"> 👨‍💻 TRACK OF WATER 👩‍💻 </h1>
 
-
 <span align="center">
-
-<h3 align="center"> Основні технології <h3>
 
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
 ![Styled components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)&nbsp;
