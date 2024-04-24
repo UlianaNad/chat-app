@@ -1,7 +1,53 @@
+import { useEffect, useState } from "react";
+import Avatar from "./Avatar";
+import Logo from "./Logo";
+
 const Chat = () => {
+  const [ws, setWs] = useState(null);
+  const [onlinePeople, setOnlinePeople] = useState({});
+  const [selectedUsedId, setSelectedUserId] = useState(null);
+
+  useEffect(() => {
+    const ws = new WebSocket("ws://localhost:4040");
+    setWs(ws);
+    ws.addEventListener("message", handleMessage);
+  }, []);
+
+  const handleMessage = (ev) => {
+    const messageData = JSON.parse(ev.data);
+
+    if ("onLine" in messageData) {
+      showOnlinePeople(messageData.onLine);
+    }
+  };
+
+  const showOnlinePeople = (peopleArray) => {
+    const people = {};
+
+    peopleArray.forEach(({ userId, username }) => {
+      people[userId] = username;
+    });
+    setOnlinePeople(people);
+  };
+
   return (
     <div className="flex h-screen">
-      <div className=" bg-white w-1/3">Contacts</div>
+      <div className=" bg-white w-1/3 ">
+        <Logo />
+        {Object.keys(onlinePeople).map((userId) => (
+          <div
+            onClick={() => setSelectedUserId(userId)}
+            className={
+              "border-b border-gray-100 py-2 pl-4 flex items-center gap-2 cursor-pointer " +
+              (userId === selectedUsedId ? "bg-blue-50" : "")
+            }
+            key={userId}
+          >
+            <Avatar username={onlinePeople[userId]} userId={userId} />
+            <span className="text-gray-800"> {onlinePeople[userId]}</span>
+          </div>
+        ))}
+      </div>
       <div className="flex flex-col bg-blue-100  w-2/3 p-2">
         <div className="flex-grow">messages</div>
         <div className="flex gap-2">
